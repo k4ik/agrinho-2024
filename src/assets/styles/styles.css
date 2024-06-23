@@ -289,6 +289,18 @@ p {
     filter: brightness(0) invert(1);
 }
 
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
 /* Animations */
 @keyframes up-and-down {
     0% {
@@ -378,16 +390,4 @@ p {
     .iniciativas-banner h3 {
         font-size: 1.4em;
     }
-}
-
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 1s all ease;
-}
-
-.reveal.active{
-    transform: translateY(0);
-    opacity: 1;
 }

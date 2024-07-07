@@ -6,41 +6,34 @@
     justify-items: center;
     align-items: center;
 }
-
 .footer span {
     font-weight: bold;
     font-size: 1.5em;
     color: var(--white);
 }
-
 .footer li,
 .footer a {
     font-size: 0.9em;
     color: var(--white);
     list-style: none;
-    line-height: 1.5em;
+    line-height: 2em;
     text-decoration: none;
 }
-
 .footer li:first-child {
     font-weight: bold;
 }
-
 .footer li:first-child::before {
     content: "";
 }
-
 .footer li::before {
-    content: "🌿 ";
+    content: "🌿  ";
 }
-
 .footer img {
     width: 40px;
     height: 40px;
     margin-right: 10px;
     filter: brightness(0) invert(1);
 }
-
 @media (max-width: 600px) {
     .footer {
         grid-template-columns: 1fr;

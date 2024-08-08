@@ -21,7 +21,7 @@
     text-align: center;
 }
 #inicio h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     color: var(--white);
     font-weight: bold;
     text-align: center;
@@ -31,7 +31,7 @@
 #inicio p {
     color: var(--white);
     font-weight: 100;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 200;
 }
 #inicio button {
@@ -133,7 +133,7 @@
     visibility: visible;
     opacity: 1;
 }
-.iniciativas-banner {
+.oportunidades-banner {
     background: url("../images/banner2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,14 +143,14 @@
     justify-content: center;
     align-items: center;
 }
-.iniciativas-banner h3 {
+.oportunidades-banner h3 {
     font-size: 2em;
     font-weight: bold;
     color: var(--white);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.300);
     text-align: center;
 }
-#iniciativas a {
+#oportunidades a {
     color: var(--text-color);
     text-decoration: none;
 }
